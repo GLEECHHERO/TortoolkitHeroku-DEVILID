@@ -11,13 +11,13 @@ except:
         BOT_TOKEN = os.environ.get("BOT_TOKEN")
         BASE_URL_OF_BOT = os.environ.get("BASE_URL")
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [871967943,1291911714,755983475,1282644258,-1001348584170]
+        ALD_USR = [-336064467,681874834,1623204815,-591318680,1791926295,-398083777,-535704647,-485259042,-506810088,-509188755,-332812564,-1001261847287,-1001223780488,-1001593302534]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 2000000000
+        TG_UP_LIMIT = 1700000000
 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
@@ -49,7 +49,7 @@ except:
         RCLONE_CONFIG = False
         
         # Name of the RCLONE drive from the config
-        DEF_RCLONE_DRIVE = ""
+        DEF_RCLONE_DRIVE = "abotup"
 
         # Max size of the torrent allowed
         MAX_YTPLAYLIST_SIZE = 20
